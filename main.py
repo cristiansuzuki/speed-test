@@ -1,5 +1,6 @@
-import speedtest
+# Script simples utilizando a LIB Speedtest para realizar testes de download, upload e ping.
 
+import speedtest
 teste = speedtest.Speedtest()
 
 print("Carregando lista de servidores...")
